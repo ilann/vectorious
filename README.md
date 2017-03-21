@@ -1,10 +1,22 @@
 ![vectorious](https://github.com/mateogianolio/vectorious/raw/master/logo.gif)
 
-![version](https://img.shields.io/npm/v/vectorious.svg?style=flat&label=version) ![travis](https://img.shields.io/travis/mateogianolio/vectorious.svg?style=flat)
-![climate](https://img.shields.io/codeclimate/github/mateogianolio/vectorious.svg?style=flat&label=climate) ![coverage](https://img.shields.io/codeclimate/coverage/github/mateogianolio/vectorious.svg?style=flat&label=coverage)
-[![CDNJS](https://img.shields.io/cdnjs/v/vectorious.svg)](https://cdnjs.com/libraries/vectorious)
-
 > A high performance linear algebra library, written in JavaScript and optimized with C++ bindings to [BLAS](http://www.netlib.org/blas/).
+
+<div style="border:1px red solid;">
+<h3 style="color:red">Modified version. Please read</h3>
+<p>
+    At this time Vectorious cannot be used (easily) with Webpack and TypeScript due to the NBlas lib.
+    Hopefully this will change soon enough.
+</p>
+<p>
+    This is a modified version for typescript and Webpack<br/>
+    Types are also included (Although not updated to the latest version)<br/>    
+</p>
+<p>
+    Forked from version 4.8.1<br/>
+    Types are from version 4.3.2
+</p>
+</div>
 
 ### Usage
 

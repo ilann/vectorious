@@ -2,7 +2,8 @@
   "name": "vectorious",
   "version": "4.8.1",
   "description": "A high performance linear algebra library.",
-  "main": "vectorious.js",
+  "main" : "vectorious.js",
+  "types": "vectorious.d.ts",
   "scripts": {
     "test": "mocha",
     "benchmark": "node ./benchmarks/vector.js && node ./benchmarks/matrix.js",
